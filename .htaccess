@@ -1,0 +1,4 @@
+RewriteEngine on
+AddDefaultCharset UTF-8
+RewriteRule ^journal([\d]+)$ /index.php?id=$1 [L] 
+RewriteRule ^(\w+)$ ?id=$1 [L]
